@@ -1,0 +1,48 @@
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+   *{
+
+   }
+   main{
+      background-image: url('https://assets.hongkiat.com/uploads/beautiful-minimalist-desktop-wallpapers/4k/original/01.jpg?3');
+      background-repeat: no-repeat;
+      min-height:100vh ;
+      background-size: cover;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+   }
+
+   .animate-spin {
+      animation: spin 5s linear infinite;
+    }
+    
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .animate-float {
+      animation: float 2s ease-in-out infinite alternate;
+    }
+    
+    @keyframes float {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(15px);
+      }
+    }
+    
+    
